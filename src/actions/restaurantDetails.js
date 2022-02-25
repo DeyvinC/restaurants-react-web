@@ -49,7 +49,7 @@ export default function RestaurantDetails() {
         Rate {restaurant.name}
       </h2>
       <Rate value={rating}onChange={(value) => setRating(value)} />
-      <Button onClick={handleRating} type="primary" size={"large"}>Submit Rating</Button>
+      <Button onClick={handleRating} type="primary" size={"large"} style={{marginTop: '20px'}}>Submit Rating</Button>
     </div>
     </section>
   );
