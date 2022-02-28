@@ -32,6 +32,7 @@ export default function RestaurantDetails() {
   }
 
   return (
+    <div className="detail-restaurant-bg">
     <section className="detail-wrapper">
       <img src={restaurant.photoUrl} alt={`IPhoto of ${restaurant.name}`} />
       <div className="detail-restaurant-wrapper">
@@ -53,5 +54,6 @@ export default function RestaurantDetails() {
       <Button onClick={handleRating} type="primary" size={"large"} style={{marginTop: '20px'}}>Submit Rating</Button>
     </div>
     </section>
+    </div>
   );
 }

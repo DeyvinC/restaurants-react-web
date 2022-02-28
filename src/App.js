@@ -10,12 +10,13 @@ function App() {
   return (
     <>
       <Layout>
-        <Header style={{ position: "fixed", zIndex: 999, width: "100%" }}>
+        <Header style={{ padding:0, position: "fixed", zIndex: 999, width: "100%" }}>
           <h1
             style={{
               fontSize: 28,
               textAlign: "center",
               color: "white",
+              backgroundColor:'orange',
               fontWeight: "800",
             }}
           >

@@ -46,3 +46,7 @@
     padding: 30px;
     
   }
+
+  .detail-restaurant-bg {
+    background-image: url('restaurantBG.webp');
+  }
